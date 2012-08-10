@@ -37,7 +37,7 @@ class Arin
   end
 end
 
-if __FILE__ == $0  #
+if __FILE__ == $0
   aq = Arin.lookup('127.0.0.1')
   p aq
 end
